@@ -30,7 +30,7 @@ const Feed = () => {
 
   if (feed.length <= 0) {
     return (
-      <div className="flex justify-center items-center min-h-[calc(100vh-5rem)] p-4 mb-16">
+      <div className="flex justify-center items-center min-h-screen pt-20 p-4 mb-16">
         <Card className="w-full max-w-md border border-base-300/50 shadow-[0_0_50px_0_rgba(0,0,0,0.1)] dark:shadow-[0_0_50px_0_rgba(0,0,0,0.3)] backdrop-blur-sm bg-base-100/80 dark:bg-base-100/90">
           <CardContent className="p-8 flex flex-col items-center text-center space-y-4">
             <div className="w-16 h-16 rounded-full bg-base-200 flex items-center justify-center">
@@ -49,7 +49,7 @@ const Feed = () => {
   }
 
   return (
-    <div className="flex justify-center items-center min-h-[calc(100vh-5rem)] p-4 mb-16">
+    <div className="flex justify-center items-center min-h-screen pt-20 p-4 mb-16">
       <div className="w-full max-w-md">
         <UserCard user={feed[0]} />
       </div>
